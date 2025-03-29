@@ -6,9 +6,6 @@ import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 
 @Mapper(componentModel = "spring")
-public interface PaymentMapper {
+public interface PaymentMapper extends ConfigMapper<Payment,PaymentEntity>{
     PaymentMapper INSTANCE = Mappers.getMapper(PaymentMapper.class);
-
-    PaymentEntity toEntity(Payment payment);
-    Payment toDomain(PaymentEntity paymentEntity);
 }

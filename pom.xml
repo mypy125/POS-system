@@ -87,7 +87,7 @@
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
-			<version>${sl4j.version}</version> <!-- Актуальная версия (можно проверить на Maven Central) -->
+			<version>${sl4j.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
