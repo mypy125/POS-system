@@ -1,4 +1,4 @@
-package com.example.sofpos;
+package com.mygitgor.sofpos;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

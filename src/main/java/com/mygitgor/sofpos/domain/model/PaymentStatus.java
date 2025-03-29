@@ -1,4 +1,4 @@
-package com.example.sofpos.domain;
+package com.mygitgor.sofpos.domain.model;
 
 public enum PaymentStatus {
     PENDING,

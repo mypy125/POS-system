@@ -1,6 +1,7 @@
-package com.example.sofpos.repository;
+package com.mygitgor.sofpos.infrastructure.database;
 
-import com.example.sofpos.domain.PaymentStatus;
+import com.mygitgor.sofpos.domain.model.CardType;
+import com.mygitgor.sofpos.domain.model.PaymentStatus;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -36,5 +37,8 @@ public class PaymentEntity {
 
     @Column(nullable = false)
     private LocalDateTime createdAt;
+
+    @Column(nullable = false)
+    private CardType cardType;
 }
 

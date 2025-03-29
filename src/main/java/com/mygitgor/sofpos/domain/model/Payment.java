@@ -1,4 +1,4 @@
-package com.example.sofpos.domain;
+package com.mygitgor.sofpos.domain.model;
 
 import lombok.*;
 
@@ -18,4 +18,5 @@ public class Payment {
     private String currency;
     private PaymentStatus status;
     private LocalDateTime createdAt;
+    private CardType cardType;
 }

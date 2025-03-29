@@ -19,9 +19,18 @@ spring:
     hibernate:
       ddl-auto: update
 
+firebase:
+  api:
+    url: ${FIREBASE_API_URL}
+
 dotenv:
   enabled: true
   override: true
+
+#logging:
+#  level:
+#    root: INFO
+#    com.mygitgor.sofpos: DEBUG
 
 logging:
   level:

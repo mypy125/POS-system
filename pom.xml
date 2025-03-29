@@ -8,7 +8,7 @@
 		<version>3.4.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
+	<groupId>com.mygitgor</groupId>
 	<artifactId>sofpos</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>sofpos</name>
@@ -28,6 +28,7 @@
 	</scm>
 	<properties>
 		<java.version>17</java.version>
+		<sl4j.version>2.0.16</sl4j.version>
         <firebase.version>9.2.0</firebase.version>
 		<postgres.version>42.7.4</postgres.version>
         <lombok.version>1.18.30</lombok.version>
@@ -83,6 +84,11 @@
             <version>${lombok.version}</version>
             <scope>provided</scope>
         </dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>${sl4j.version}</version> <!-- Актуальная версия (можно проверить на Maven Central) -->
+		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok-mapstruct-binding</artifactId>

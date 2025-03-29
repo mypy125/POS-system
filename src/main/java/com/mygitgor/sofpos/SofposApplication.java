@@ -1,4 +1,4 @@
-package com.example.sofpos;
+package com.mygitgor.sofpos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
